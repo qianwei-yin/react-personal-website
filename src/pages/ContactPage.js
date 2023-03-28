@@ -28,7 +28,7 @@ const ContactPage = () => {
 			<section className="contact-page">
 				<article className="contact-form">
 					<h3>{formNote}</h3>
-					<form name="house-contact" data-netlify="true" onSubmit={handleSubmit}>
+					<form name="house-contact" netlify onSubmit={handleSubmit}>
 						<div className="form-group">
 							<input type="text" name="name" placeholder="name" className="form-control" />
 							<input type="email" name="email" placeholder="email" className="form-control" />
