@@ -14,11 +14,11 @@ const data = [
 		text: 'about me',
 		url: '/about/',
 	},
-	{
-		id: 5,
-		text: 'contact',
-		url: '/contact/',
-	},
+	// {
+	// 	id: 5,
+	// 	text: 'contact',
+	// 	url: '/contact/',
+	// },
 ];
 
 export default data;

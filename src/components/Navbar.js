@@ -2,7 +2,7 @@ import { FaAlignRight } from 'react-icons/fa';
 import pageLinks from '../assets/constants/pageLinks';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ toggleSidebar }) => {
 	return (
 		<nav className="navbar">
 			<div className="nav-center">
@@ -10,7 +10,7 @@ const Navbar = () => {
 					<Link to="/" className="logo">
 						Conway
 					</Link>
-					<button className="toggle-btn" type="button">
+					<button className="toggle-btn" type="button" onClick={toggleSidebar}>
 						<FaAlignRight />
 					</button>
 				</div>
